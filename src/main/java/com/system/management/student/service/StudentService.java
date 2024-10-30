@@ -2,10 +2,12 @@ package com.system.management.student.service;
 
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 import com.system.management.student.entity.Student;
 
-
-public interface Service 
+@Service
+public interface StudentService 
 {
 	
 	List<Student> getAllStudent();
